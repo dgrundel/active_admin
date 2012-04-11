@@ -6,7 +6,7 @@ module ActiveAdmin
       def initialize(*)
         super
         @batch_actions = {}
-        add_default_batch_actions
+        #add_default_batch_actions
       end
 
       # @return [Array] The set of batch actions for this resource
